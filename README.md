@@ -1,3 +1,3 @@
 # payment-service
 
-payment service API for Xeelver
+Payment service API for Xeelver
