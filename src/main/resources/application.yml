@@ -1,2 +1,11 @@
+klarnaUsername: ${KLARNA_USERNAME:placeholder}
+klarnaPassword: ${KLARNA_PASSWORD:placeholder}
+klarnaBaseUrl: https://api.playground.klarna.com/
+klarnaCheckoutPath: /checkout/v3/orders
+
 server:
   port: 80
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
