@@ -1,5 +1,5 @@
-klarnaUsername: ${KLARNA_USERNAME:placeholder}
-klarnaPassword: ${KLARNA_PASSWORD:placeholder}
+klarnaUsername: ${KLARNA_USERNAME:PK39673_c191181dff0c}
+klarnaPassword: ${KLARNA_PASSWORD:vkBYCqyByafqL2dZ}
 klarnaBaseUrl: https://api.playground.klarna.com/
 klarnaCheckoutPath: /checkout/v3/orders
 

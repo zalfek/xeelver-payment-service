@@ -15,7 +15,7 @@ public class PaymentController {
     private final CheckoutSevice checkoutSevice;
 
 
-    @GetMapping("/api/v1/payment")
+    @GetMapping("/api/v1/payment/healthz")
     public String getInfo() {
         return "Payment Service is Alive!!1";
     }
