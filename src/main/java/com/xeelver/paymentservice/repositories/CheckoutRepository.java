@@ -10,7 +10,7 @@ import javax.annotation.PostConstruct;
 import java.util.logging.Logger;
 
 @Repository
-public class CheckoutRepository {
+public class CheckoutRepository implements PaymentRepository{
 
     private final static Logger LOGGER = Logger.getLogger(CheckoutRepository.class.getName());
 
