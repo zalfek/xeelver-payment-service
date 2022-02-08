@@ -8,9 +8,9 @@ import java.util.logging.Logger;
 
 @Service
 @AllArgsConstructor
-public class CheckoutSevice {
+public class CheckoutService implements PaymentService{
 
-    private final static Logger LOGGER = Logger.getLogger(CheckoutSevice.class.getName());
+    private final static Logger LOGGER = Logger.getLogger(CheckoutService.class.getName());
     private final CheckoutRepository checkoutRepository;
 
 
